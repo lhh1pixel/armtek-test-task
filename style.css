@@ -39,7 +39,7 @@ img {
 
 .promo-text h2 {
   font-size: 24px;
-  color: #ff6a00;
+  color: #ff6f00;
   text-transform: uppercase;
   margin-bottom: 16px;
 }
@@ -71,23 +71,30 @@ img {
 
 .btn-primary {
   font-size: 16px;
-  background: #ff6a00;
+  background: #ff6f00;
   color: #fff;
 }
 
 .btn-outline {
   font-size: 16px;
-  border: 2px solid #ff6a00;
-  color: #ff6a00;
+  border: 2px solid #ff6f00;
+  color: #ff6f00;
   background: transparent;
 }
 
 .btn-outline-tel {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
   font-size: 18px;
-  border: 2px solid #ff6a00;
-  color: #ff6a00;
+  border: 2px solid #ff6f00;
+  color: #ff6f00;
   background: transparent;
-  
+}
+
+  .btn-icon {
+  width: 16px;
+  height: 16px;
 }
 
 /* Условия акции */
@@ -97,7 +104,7 @@ img {
 
 .promo-conditions h2 {
   font-size: 24px;
-  color: #ff6a00;
+  color: #ff6f00;
   text-transform: uppercase;
   margin-bottom: 16px;
 }
@@ -171,7 +178,7 @@ img {
 
 .promo-select h2 {
   font-size: 24px;
-  color: #ff6a00;
+  color: #ff6f00;
   text-transform: uppercase;
   margin-bottom: 12px;
 }
@@ -221,6 +228,10 @@ img {
 
   .promo-select-btn {
     width: 100%;
+  }
+
+  .btn-outline-tel {
+    justify-content: center;
   }
 
   .page {
